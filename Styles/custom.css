@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+    margin: 0
+}
+nav, header {
+    background-color: rgba(68, 60, 214, 1.0)   
+    }
+a {
+    text-decoration: none;
+    
+}
+li {
+    float: right;
+    }
+    
+a {
+    display: block;
+    padding: 8px;
+    background-color: rgba(68, 60, 214, 1.0);
+}
+
+/* specific section */
+nav {
+    padding: 25px 10%;
+    color: white;
+    font-weight: 900;
+    position: sticky;
+    top: 0;
+    align-content: center;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+
+
+nav ul {
+    list-style-type: none
+}
+
+nav ul a{
+    color: white;
+    font-weight: 300;
+    top: 0
+}
+
+header {
+    padding-left: 10%;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 32pt;
+    margin-top: 0;
+    padding-bottom: 25pt;
+
+}
+
+p {
+    line-height: 2;
+}
+
+form {
+    margin-top: 80px;
+  }
+
+ input {
+    float: left;
+    box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    padding: 18px 20px;
+    border-radius: 20px;
+    width: 60%;
+    border: none;
+    margin-right: 16px;
+    font-size: 20px;
+    color: #cdcdcd;
+    box-sizing: border-box;
+  }
+  
+  button {
+    color: white;
+    background-color:rgb(250, 66, 42);
+    padding: 18px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+    border: none;
+    transition: 0.3s;
+  }
+ 
+
+header img {
+   /* width: 10vw; */
+    margin: 20px;
+    margin-left: auto;
+    margin-right: 25px;
+    width: 50%;
+    float: right;
+    align-self: flex-start;
+    padding-top: 100px;
+}
+
+#benefits {
+    background-color: white;
+    margin: -5% 8.3% 0% 8.3%;
+    border-radius: 15px;
+    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+    display: flex;
+    color:  rgba(68, 60, 214, 1.0);
+    font-weight: normal;
+    padding: 70px 50px;
+}
+
+#benefits article {
+    margin: 0 2%;
+    padding: 0;
+}
+
+#benefits img {
+        margin: 0 auto 60px auto;
+        display: block;
+        width: 70%;
+}
+
+
+#benefit p:first-of-type {
+    color: rgba(68, 60, 214, 1.0);
+  }
+
+.divider {
+  width: 60px;
+  height: 5px;
+  background-color: rgb(248, 118, 94);
+
+}
+
+/*circle */
+.row {
+    display: flex;
+    margin: 200px 10%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+#background-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 494px;
+    height: 494px;
+    background-color: #443cd6;
+}
+
+#text-circle {
+    text-align: right;
+    padding-top: 0%;
+    padding-left: 100px;
+}
+
+#text-circle h2 {
+    color: rgba(68, 60, 214, 1.0);
+    font-size: 32pt;
+    margin-bottom: 0
+
+}
+
+#text-circle h3 {
+    color: rgb(253, 154, 125);
+    font-size: 24pt;
+    margin-bottom: 0
+}
+
+
+#text-circle p {
+    color: rgba(68, 60, 214, 1.0);
+    font-size: nomal;
+}
+
+#text-circle form {
+    margin: 0;
+    display: inline;
+    margin-left:  auto;
+}
+
+#text-circle input {
+    background-color: #fa422a;
+    color: white;
+    width: 100%;
+}
+
+.customer-container {
+    margin-left: 8.3%;
+    display: flex
+}
+
+.left-column {
+    width: 41.7vw;
+    background-image: url("../images/quote.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding-left: 25px;
+    color: rgb(68, 60, 214);
+
+
+}
+
+.left-column h3 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+
+.right-column {
+    width: 60vw;
+    background-color:  rgba(68, 60, 214, 1.0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10% 0px;
+
+}
+
+.testimonial-container {
+    margin-left: -25%;
+    display: flex;
+}
+
+/*swipe-container */
+
+.testimonial-column {
+    width: 420px;
+    height: 330px;
+    background-color: rgb(253, 154, 125);
+    border-radius: 20px;
+    box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 60px;
+    padding: 80px 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.testimonial-column p:last-of-type {
+    margin-top: auto;
+}
+
+.testimonial-column:last-of-type {
+    background-color: white;
+    color: rgb(124, 124, 124);
+}
+
+
+/* subscribe section */
+
+#subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7% 0;
+}
+
+#subscribe h2 {
+    color: rgba(68, 60, 214, 1.0);
+    margin: 0.4%
+}
+
+#subscribe h3 {
+    color: rgb(253, 154, 125);
+    margin: 0.4% 0% 1.5%;
+    font-weight: 400;
+}
+
+#subscribe form {
+    margin: 1.5%;
+    width: 40%;   
+}
+
+#subscribe input[type=text] {
+    width: 65%;
+    margin-right: 5%;
+    padding: 10px 10px;
+    font-size: 12pt;
+    border-radius: 10px;
+}
+
+#subscribe input[type=submit] {
+    width: 30%;
+    margin: 0;
+    background-color: #fa422a;
+    color: white;
+    padding: 10px 10px;
+    font-size: 12pt;
+    border-radius: 10px;
+
+}
+
+
+
+footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(68, 60, 214, 1.0);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul a {
+    color: white
+}

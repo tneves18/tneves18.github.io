@@ -4,46 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/custom.css">
+    <title>Peaches website</title>
 </head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>peaches webiste</title>
 <body>
 <!-- NAVIGATION BAR -->
     <nav> 
          <p>PEACHES</p>
          <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
          </ul>
+    </nav>
 
 <!-- HEADER BOX -->
-       <section>
-           <article>
-               <h1>Subscribe today and get notified first when we launch Peaches app!</h1>
-               <p>
-                   Peaches would help you to discover all the surprising health benefits and uses of Peaches. 
-                   Take a bite and don’t miss out the best recipes made by top nutrition coaches.
-                </p>
-                <img src="./images/clayWhite-1.png" alt="">
-    
-            </article>
-       <section>
-           <article>
-                <form action="/action_page.php">
-                    <input type="text" value="your email address"><br>
-                    <input type="submit" value="Subscribe Now!">
-                  </form>
-           </article>
+    <header>
+        <article id="title">
+            <h1>Subscribe today and get notified first when we launch Peaches app!</h1>
+            <p>
+                Peaches would help you to discover all the surprising health benefits and uses of Peaches. 
+                Take a bite and don’t miss out the best recipes made by top nutrition coaches.
+            </p>
+            <form>
+                <input type="text" placeholder="Your email address">
+                <button>Subscribe now</button>
+            </form>
+        </article>
+        <!-- <div> -->
+            <img src="./images/clayWhite-1.png" alt="">
+        <!-- </div> -->
+    </header>   
 
 <!-- ICONS     -->
-       </section>
-             <article>
+    <section id="benefits">
+        <article>
                  <img src="./images/illustrationUsp1.png" alt="">
                  <h4>Good to your Health!</h4>
+                 <div class="divider"></div>
                  <p>
                         A peach a day keeps the plague spirits away! 
                         In addition to being beautiful, fragrant, and 
@@ -51,20 +49,24 @@
                         of nutrients to support good health, including vitamins, 
                         minerals, antioxidants, and bioflavonoids. 
                  </p>
-             </article>
-             <article>
+                 
+        </article>
+        <article>
                  <img src="./images/illustrationUsp2.png" alt="">
                  <h4>Treat your self!</h4>
+                 <div class="divider"></div>
                  <p>
                      Few sweet snacks embody summer quite like a peach. 
                      Feeling the soft fuzz against your upper lip and sweet 
                      juice dripping from the corners of your mouth onto your 
                      hands are what warm backyard nights are made of.
                 </p>
-             </article>
-             <article>
+                
+        </article>
+        <article>
                  <img src="./images/illustrationUsp3.png" alt="">
                  <h4>Keep yourself young!</h4>
+                 <div class="divider"></div>
                  <p>
                         Peaches play important roles in healthy aging. 
                         One day I would have all the books in the world, 
@@ -72,12 +74,16 @@
                         in a tower of books. I would read all day long and 
                         eat peaches to live happily ever after. 
                  </p>
-             </article>
+                 
+        </article>
+    </section>
 
 <!-- SUMMER TASTE     -->
-         <section>
-             <article>
-                 <img src="./images/clayWhite.png" alt="">
+         <section id="pricing" class="row">
+             <div id="background-circle">
+                <img src="./images/clayWhite.png" alt="">
+             </div>
+             <article id="text-circle">
                  <h2>It tastes like Summer.</h2>
                  <h3>Better than an apple.</h3>
                  <p>
@@ -90,46 +96,53 @@
                         thing. It is just enough to distinguish the blue of the sky 
                         from the pink of peach flowers which are opening out.
                  </p>
-                 <input type="submit" value="Subscribe Now!">
+                 <form>
+                    <input type="submit" value="Subscribe Now!">
+                </form>
              </article>
          </section>
          
 <!-- TESTIMONIAL -->
-         <Section>
-            <div>
-                <h3>What Our
-                        Customers Say</h3>
-                <img src="./images/quote.png" alt="">
+         <section id="testimonial"
+         class="customer-container">
+             
+            <div class="left-column">
+                <h3>What Our<br /> Customers Say</h3>
             </div>    
-            <div>
-                <div>
-                    <article>
+            <div class="right-column">
+                <div class="testimonial-container swipe-container">
+                    <article class="testimonial-column" >
                         <img src="./images/quoteWhite.png" alt="">
                         <p>
                             “Life is as peachy as you make it!!!
                                 Always remember that”
                         </p>
+                        <p>
+                            Karen Kolb / Ironhack
+                        </p>
                     </article>
-                    <article>
+                    <article class="testimonial-column">
                         <img src="./images/quotePink.png" alt="">
                         <p>
                             “If life gives you lemons, f*ck it, I just want more peaches for my mojito”
+                        </p>
+                        <p>
+                            Amir Aran / Ironhack
                         </p>
                     </article>
 
                 </div>
             </div>
-        </Section>
+        </section>
 
 <!-- SUBSCRIBE -->
-        <section>
+        <section id="subscribe">
             <h2>Subscribe today and get notified first!</h2>
             <h3>Product launch in: 12 days</h3>
-            <form action="/action_page.php">
-                <input type="text" value="your email address"><br>
+            <form>
+                <input type="text" value="your email address">
                 <input type="submit" value="Subscribe Now!">
-              </form>
-
+            </form>
         </section>
 
 <!-- FOOTER -->
@@ -137,13 +150,11 @@
         <p>
                 © 2019 Peaches All Right Reserved
         </p>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-            </ul>   
-        </nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>   
     </footer>
 
 </body>
