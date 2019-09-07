@@ -220,7 +220,7 @@ header img {
 .left-column {
     width: 41.7vw;
     background-image: url("../images/quote.png");
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
     margin-top: 30px;
     padding-left: 25px;
@@ -240,7 +240,7 @@ header img {
     background-color:  rgba(68, 60, 214, 1.0);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    padding: 10% 0px;
+    padding: 20% 0px;
 
 }
 
@@ -253,11 +253,11 @@ header img {
 
 .testimonial-column {
     width: 420px;
-    height: 330px;
+    height: 300px;
     background-color: rgb(253, 154, 125);
     border-radius: 20px;
     box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
-    margin-right: 60px;
+    margin-right: 50px;
     padding: 80px 50px;
     color: white;
     display: flex;
